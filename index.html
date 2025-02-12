@@ -1,1 +1,25 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="todolisttitle">To Do App</h1>
+        <div class="inputnbtn">
+            <input type="text" name="Add Text" id="addText">
+            <button id="add" onclick="toDoList()">Add</button>
+        </div>
+        <ul id="outputList"></ul>
+        <hr class="line">
+        <div class="counters">
+            <p id="counter"><span id="tracker"></span> Notes</p>
+            <button id="deleteall" onclick="deleteButton()">Delete All</button>
+        </div>
+    </div>
 
+    <script src="script.js" defer></script>
+</body>
+</html>
